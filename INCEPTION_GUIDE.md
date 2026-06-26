@@ -134,7 +134,10 @@ inception/
 ## Step 4 — Write the 3 Dockerfiles
 
 ### NGINX Dockerfile
-`nano ~/inception/srcs/requirements/nginx/Dockerfile`
+>**So what you do now is copy each path given in each step and paste the code do not forget to change the login if the script has it**
+|
+|
+--->`nano ~/inception/srcs/requirements/nginx/Dockerfile`
 
 ```dockerfile
 FROM debian:bookworm
