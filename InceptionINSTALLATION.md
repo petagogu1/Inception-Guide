@@ -7,6 +7,8 @@
 Go to your search engine and type **debian.org**.  
 A page will show up with a **Download** button — click it.
 
+**The subject says that you should use the previous version of debian or alpine and not the current one but be careful debian 12 is lagging when u try to do it with gui**
+
 ---
 
 ## Step 2: Set Up VirtualBox
