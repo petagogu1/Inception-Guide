@@ -471,7 +471,7 @@ Docker secrets are a secure way to pass sensitive data (passwords, keys) to cont
 ```bash
 echo "127.0.0.1 yourlogin.42.fr" | sudo tee -a /etc/hosts
 ```
-
+>**Do not forget use the command but change your login too!!!**
 ---
 
 ## Step 10 — Write the Makefile
