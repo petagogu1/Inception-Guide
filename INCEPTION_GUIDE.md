@@ -463,6 +463,7 @@ echo "strongwpadminpass" > ~/inception/secrets/credentials.txt
 Docker secrets are a secure way to pass sensitive data (passwords, keys) to containers. Instead of putting passwords in `.env` (which can be exposed via `docker inspect`), secrets are stored as files and mounted inside the container at `/run/secrets/filename`. Your scripts read them with `cat /run/secrets/db_password`.
 
 > **SECRETS ARE NOT ALLOWED IN YOUR GIT REPOSITORY.** Add `secrets/` to your `.gitignore`. They will be created manually on each machine during evaluation.
+>**What you can do is also put the secret folder aside in the home and when the reviewer comes put the secret inside the cloned repository**
 
 ---
 
